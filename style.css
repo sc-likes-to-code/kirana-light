@@ -79,7 +79,10 @@ body {
 .logo-text h1 {
   font-size: 1.35rem; font-weight: 800;
   background: linear-gradient(135deg, #e0e7ff, #c7d2fe, #a5b4fc);
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
   letter-spacing: -0.02em;
 }
 
